@@ -1,11 +1,106 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> Daniel's first website
-<link rel="stylesheet" href="">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balanced Soul Music</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
 <body>
-    Hello world! I am Daniel Rubbone and im learning how to create websites.   
+  <!-- Header -->
+  <header class="site-header">
+    <h1>Balanced Soul Music</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="playlists.html">Playlists</a></li>
+        <li><a href="artists.html">Artists</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Find Your Balance Through Music</h2>
+    <p>Explore music therapy for mental health and well-being.</p>
+    <a href="playlists.html" class="btn">Listen Now</a>
+    <a href="about.html" class="btn btn-outline">Learn More</a>
+  </section>
+
+  <!-- Featured Playlists -->
+  <section>
+    <h2>Featured Playlists</h2>
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="icon">🎵</div>
+        <h3>Morning Calm</h3>
+        <p>Start your day with soothing melodies.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🎵</div>
+        <h3>Stress Relief</h3>
+        <p>Reduce anxiety and tension.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🎵</div>
+        <h3>Evening Relaxation</h3>
+        <p>Wind down and improve sleep quality.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Artist Spotlight -->
+  <section>
+    <h2>Artist Spotlight</h2>
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="icon">🎤</div>
+        <h3>Billie Eilish</h3>
+        <p><em>"Music helped me through anxiety..."</em></p>
+      </div>
+      <div class="card">
+        <div class="icon">🎤</div>
+        <h3>Kendrick Lamar</h3>
+        <p><em>"Lyrics can be healing..."</em></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Articles -->
+  <section>
+    <h2>Latest Articles & Resources</h2>
+    <ul class="list">
+      <li><strong>5 Music Therapy Techniques</strong> — Practical exercises to relax</li>
+      <li><strong>Benefits of Lo-Fi Music</strong> — How music improves focus</li>
+      <li><strong>Music & Mental Health Studies</strong> — Scientific insights explained</li>
+    </ul>
+  </section>
+
+  <!-- Video -->
+  <section>
+    <h2>Music Therapy Exercise</h2>
+    <div class="video-wrap">
+      <video controls width="560">
+        <source src="calming_music.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <p class="caption">Short music therapy exercise</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>Contact: <a href="mailto:info@balancedsoulmusic.com">info@balancedsoulmusic.com</a></p>
+    <p><a href="https://www.musictherapy.org" target="_blank">www.musictherapy.org</a></p>
+    <p>&copy; 2025 Balanced Soul Music</p>
+  </footer>
 </body>
 </html>
